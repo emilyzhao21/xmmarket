@@ -1,0 +1,330 @@
+/* css初始化 */
+*{margin:0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+button,input{outline:none;}
+button{
+	width: 160px;
+	height: 40px;
+	border: 1px solid #ff6700;
+	background-color: #fff;
+	color:#ff6700;
+}
+.clearfix:before, .clearfix:after{
+	content:"";
+	display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;}
+body{background-color: #f5f5f5;}
+/* 定义版心 */
+.w{
+	width: 1226px;
+	margin:0 auto;
+}
+
+/* navTitle start*/
+.navTitle{
+	height: 40px;
+	background-color: #333;
+}
+.navTitle-in ul li{
+	float: left;
+	border-left: 2px solid #3d423d;	
+	padding:0 5px;
+	line-height: 12px;
+	margin-top: 10px;
+}
+.navTitle-in ul li a{
+	font-size:12px;
+	color:#b0b0b0;
+}
+.navTitle-in ul li a:hover{color:#ff6700;}
+.navTitle-in ul .firstli{
+	border-left: none;
+}
+.navTitle-in .login{
+	float: right;
+	margin-right:140px;
+}
+/* navTitle end */
+/* mainnav start */
+.mainnav{
+	background-color: #fff;
+	height: 80px;
+	line-height: 55px;
+	padding-top: 20px;
+}
+.logo h1 a{
+	float: left;
+	margin-right:70px;
+	height: 50px;
+	width: 50px;
+	background: #ff6700 url(images/mi-logo.png) no-repeat;
+}
+.mainnav-in ul li{
+	float: left;
+	padding:0 10px;
+}
+.mainnav-in ul li a{
+	color:#333;
+}
+.mainnav-in ul li a:hover{color:#ff6700;}
+
+.mainnav-in .search{
+	float: right;	
+}
+.mainnav-in input{
+	float: left;
+	width: 242px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	font-size:12px;
+	text-align: right;
+	padding-right: 15px;
+	color: #eee;
+}
+.mainnav-in button{
+	float: right;
+	height: 52px;
+	width: 50px;
+	background: #fff url(images/search.png) no-repeat right;
+	outline:none;
+	border: 1px solid #e0e0e0;
+}
+/* mainnav end */
+
+/* main start */
+.main h5{
+	font-weight: normal;
+	padding:10px;
+}
+
+/* subnav start */
+.subnav{
+	height: 80px;
+	background-color: #fff;
+	line-height: 80px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.subnav ul li{
+	float: left;
+}
+.subnav ul li a{
+	display:block;
+	color: #333;
+	padding:0 20px;
+	height:80px;
+
+}
+.subnav ul li a:hover{
+	border-bottom: 2px solid #333;
+	font-weight: bold;
+}
+.subnav strong a{
+	color:#ff6700;
+	float: right;
+	margin-right: 50px;
+	font-weight: normal;
+	font-size: 14px;
+}
+/* subnav end */
+
+/* banner start */
+.banner{
+	background:  url(images/banner.jpg) no-repeat;
+	height: 460px;
+	margin-bottom:15px;
+}
+/* banner end */
+
+/* product start */
+.product ul{
+	width: 608px;
+	height: 500px;
+	background-color: #fff;
+}
+.product ul li{
+	width: 528px;
+	margin:0 auto;
+}
+.product ul .title h2{
+	font-weight: normal;
+	display:inline-block;
+}
+.product ul .title{
+	border-top: 1px solid #eee;
+	padding-top:25px;
+}
+.product ul .title span{
+	color:#ff6700;
+	font-size: 20px;
+	margin:0 40px 0 20px;
+}
+.product ul .pr1{margin:0;}
+.product ul .pr2{margin:0;}
+.product ul .pr3{margin:0;}
+.product ul .pr4{margin:0;}
+
+.product ul li p{
+	color:#757575;
+	font-size: 14px;
+	line-height: 22px;
+}
+.product-top{
+	margin-bottom: 10px;
+}
+.product .ulpr1, .ulpr3{float: left;}
+.product .ulpr2 , .ulpr4{float: right;}
+/* product start */
+
+/* main end */
+
+/* help start */
+.help{
+	background-color: #fff;
+	height: 870px;
+	margin-top: 20px;
+}
+
+/* help-top start */
+.htopt{
+	height: 600px;
+	background:  url(images/phone-section-05.jpg) no-repeat;
+	overflow:hidden;
+}
+.htopt-con{
+	margin-top: 440px;
+	height: 160px;
+	background-color:rgba(0,0,0,0.5);
+}
+.htopt-con ul{
+	color:#fff;
+	float: left;
+	padding: 30px;
+}
+.htopt-con ul li{
+	font-size: 12px;
+	margin:10px;
+}
+.htopt-con ul li h2{
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.htopt-con ul li button{
+	background-color: rgba(0,0,0,0.2);
+}
+.htopt-con .btn{
+	margin-left: 300px;
+}
+.htopb ul{
+	border-bottom: 1px solid #e0e0e0;
+	padding: 50px;
+}
+.htopb ul li{
+	float: left;
+	padding:0 35px 0 80px;
+	border-left: 1px solid #e0e0e0;
+	height: 1.5em;
+}
+
+.htopb ul .firstl{
+	border-left: none;
+	background:  url(images/xiu.png) 40px center no-repeat;
+}
+.seven{
+	background:  url(images/seven.png) 40px center no-repeat;
+}
+.fifteen{
+	background:  url(images/fifteen.png) 40px center no-repeat;
+}
+.song{
+	background:  url(images/song.png) 40px center no-repeat;
+}
+.get{
+	background:  url(images/get.png) 40px center no-repeat;
+}
+/* help-top end */
+
+/* help-bottom start  */
+
+.help-bottom dl{
+	float: left;
+	margin:20px 80px 20px 0;
+}
+.help-bottom dl dt{
+	margin-bottom: 20px;
+}
+.help-bottom dl dd{
+	font-size: 12px;
+	color: #757575;
+	padding: 5px 0;
+}
+.help-bottom .tel{
+	float: right;
+	text-align: center;
+	border-left: 1px solid #e0e0e0;
+	padding: 0px 72px;
+	margin-top: 20px;
+}
+.help-bottom .tel strong{
+	font-size: 30px;
+	font-weight: normal;
+	color:#ff6700;
+}
+.help-bottom .tel p{
+	font-size: 14px;
+	color:#616161;
+	margin-bottom: 5px;
+}
+.help-bottom .tel button{
+	background:  url(images/message.png) 15px center no-repeat;
+}
+/* shelp-bottom end  */
+
+/* help end */
+
+/* footer start */
+
+.footer{
+	margin-top: 35px;
+	height: 160px;
+	background:  url(images/slogan2016.png) no-repeat center 100px;
+}
+.footer .logo h1 a{
+	margin-right: 5px;
+}
+.footer ul li{
+	float: left;
+	padding:0 2px;
+	border-right: 1px solid #e0e0e0;
+	height: 12px;
+	line-height: 12px;
+}
+.footer ul .lastli{
+	border-right: 0;
+	margin-right: 100px;
+}
+.footer ul li a{
+	color:#333;
+	font-size: 12px;
+}
+.footer ul li a:hover{color:#ff6700;}{
+
+}
+.footer p{
+	font-size: 12px;
+	color:#757575;
+	margin-top: 2px;
+	float: left;
+}
+.footer .v-logo li{
+	border: none;
+}
+.footer .v-logo li img{
+	width: 85px;
+	height: 28px;
+
+}
+/* footer end*/
